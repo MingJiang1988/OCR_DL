@@ -1,0 +1,2 @@
+model_checkpoint_path: "/root/mnist_model/model2.ckpt"
+all_model_checkpoint_paths: "/root/mnist_model/model2.ckpt"
