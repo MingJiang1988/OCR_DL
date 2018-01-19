@@ -1,7 +1,176 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce69bde4-1799-4078-9c5a-3e278c846213" name="Default" comment="first" />
+    <list default="true" id="ce69bde4-1799-4078-9c5a-3e278c846213" name="Default" comment="first">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Gift/out-1.ogv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Gift/output.tar.gz" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/data/demo/1701996831.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/data/demo/SUKSES KYC 1002726479.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/data/demo/SUKSES KYC 1005944200.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/data/demo/SUKSES KYC 1051341116.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/data/demo/SUKSES KYC 1180188003.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/data/demo/SUKSES KYC 1230022326.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/data/demo/SUKSES KYC 1511504908.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/demo.py" afterPath="$PROJECT_DIR$/demo.py" />
+      <change beforePath="$PROJECT_DIR$/digits/tensorflow-mnist-cnn/mnist_data.py" afterPath="$PROJECT_DIR$/digits/tensorflow-mnist-cnn/mnist_data.py" />
+      <change beforePath="$PROJECT_DIR$/tmp/22.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tmp/23.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tmp/24.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tmp/25.jpg" afterPath="$PROJECT_DIR$/tmp/25.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/26.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tmp/Edges0.jpg" afterPath="$PROJECT_DIR$/tmp/Edges0.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/Edges1.jpg" afterPath="$PROJECT_DIR$/tmp/Edges1.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/Edges10.jpg" afterPath="$PROJECT_DIR$/tmp/Edges10.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/Edges11.jpg" afterPath="$PROJECT_DIR$/tmp/Edges11.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/Edges12.jpg" afterPath="$PROJECT_DIR$/tmp/Edges12.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/Edges13.jpg" afterPath="$PROJECT_DIR$/tmp/Edges13.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/Edges14.jpg" afterPath="$PROJECT_DIR$/tmp/Edges14.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/Edges15.jpg" afterPath="$PROJECT_DIR$/tmp/Edges15.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/Edges16.jpg" afterPath="$PROJECT_DIR$/tmp/Edges16.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/Edges17.jpg" afterPath="$PROJECT_DIR$/tmp/Edges17.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/Edges18.jpg" afterPath="$PROJECT_DIR$/tmp/Edges18.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/Edges19.jpg" afterPath="$PROJECT_DIR$/tmp/Edges19.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/Edges2.jpg" afterPath="$PROJECT_DIR$/tmp/Edges2.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/Edges20.jpg" afterPath="$PROJECT_DIR$/tmp/Edges20.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/Edges21.jpg" afterPath="$PROJECT_DIR$/tmp/Edges21.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/Edges22.jpg" afterPath="$PROJECT_DIR$/tmp/Edges22.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/Edges23.jpg" afterPath="$PROJECT_DIR$/tmp/Edges23.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/Edges24.jpg" afterPath="$PROJECT_DIR$/tmp/Edges24.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/Edges25.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tmp/Edges3.jpg" afterPath="$PROJECT_DIR$/tmp/Edges3.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/Edges4.jpg" afterPath="$PROJECT_DIR$/tmp/Edges4.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/Edges5.jpg" afterPath="$PROJECT_DIR$/tmp/Edges5.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/Edges6.jpg" afterPath="$PROJECT_DIR$/tmp/Edges6.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/Edges7.jpg" afterPath="$PROJECT_DIR$/tmp/Edges7.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/Edges8.jpg" afterPath="$PROJECT_DIR$/tmp/Edges8.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/Edges9.jpg" afterPath="$PROJECT_DIR$/tmp/Edges9.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/buff.txt" afterPath="$PROJECT_DIR$/tmp/buff.txt" />
+      <change beforePath="$PROJECT_DIR$/tmp/split0_0.jpg" afterPath="$PROJECT_DIR$/tmp/split0_0.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split0_1.jpg" afterPath="$PROJECT_DIR$/tmp/split0_1.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split0_2.jpg" afterPath="$PROJECT_DIR$/tmp/split0_2.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split0_3.jpg" afterPath="$PROJECT_DIR$/tmp/split0_3.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split10_0.jpg" afterPath="$PROJECT_DIR$/tmp/split10_0.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split10_1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tmp/split10_2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tmp/split11_0.jpg" afterPath="$PROJECT_DIR$/tmp/split11_0.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split11_1.jpg" afterPath="$PROJECT_DIR$/tmp/split11_1.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split11_2.jpg" afterPath="$PROJECT_DIR$/tmp/split11_2.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split12_0.jpg" afterPath="$PROJECT_DIR$/tmp/split12_0.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split12_1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tmp/split12_2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tmp/split13_0.jpg" afterPath="$PROJECT_DIR$/tmp/split13_0.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split13_1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tmp/split13_2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tmp/split14_0.jpg" afterPath="$PROJECT_DIR$/tmp/split14_0.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split14_1.jpg" afterPath="$PROJECT_DIR$/tmp/split14_1.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split15_0.jpg" afterPath="$PROJECT_DIR$/tmp/split15_0.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split15_1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tmp/split15_2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tmp/split15_3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tmp/split16_0.jpg" afterPath="$PROJECT_DIR$/tmp/split16_0.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split16_1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tmp/split16_2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tmp/split16_3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tmp/split17_0.jpg" afterPath="$PROJECT_DIR$/tmp/split17_0.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split17_1.jpg" afterPath="$PROJECT_DIR$/tmp/split17_1.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split17_2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tmp/split18_0.jpg" afterPath="$PROJECT_DIR$/tmp/split18_0.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split18_1.jpg" afterPath="$PROJECT_DIR$/tmp/split18_1.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split18_2.jpg" afterPath="$PROJECT_DIR$/tmp/split18_2.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split18_3.jpg" afterPath="$PROJECT_DIR$/tmp/split18_3.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split19_0.jpg" afterPath="$PROJECT_DIR$/tmp/split19_0.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split19_1.jpg" afterPath="$PROJECT_DIR$/tmp/split19_1.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split19_2.jpg" afterPath="$PROJECT_DIR$/tmp/split19_2.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split19_3.jpg" afterPath="$PROJECT_DIR$/tmp/split19_3.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split1_0.jpg" afterPath="$PROJECT_DIR$/tmp/split1_0.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split1_1.jpg" afterPath="$PROJECT_DIR$/tmp/split1_1.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split1_2.jpg" afterPath="$PROJECT_DIR$/tmp/split1_2.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split20_0.jpg" afterPath="$PROJECT_DIR$/tmp/split20_0.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split20_1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tmp/split20_2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tmp/split21_0.jpg" afterPath="$PROJECT_DIR$/tmp/split21_0.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split21_1.jpg" afterPath="$PROJECT_DIR$/tmp/split21_1.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split21_2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tmp/split21_3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tmp/split22_0.jpg" afterPath="$PROJECT_DIR$/tmp/split22_0.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split22_1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tmp/split22_2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tmp/split23_0.jpg" afterPath="$PROJECT_DIR$/tmp/split23_0.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split23_1.jpg" afterPath="$PROJECT_DIR$/tmp/split23_1.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split23_2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tmp/split24_0.jpg" afterPath="$PROJECT_DIR$/tmp/split24_0.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split24_1.jpg" afterPath="$PROJECT_DIR$/tmp/split24_1.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split24_2.jpg" afterPath="$PROJECT_DIR$/tmp/split24_2.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split24_3.jpg" afterPath="$PROJECT_DIR$/tmp/split24_3.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split25_0.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tmp/split25_1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tmp/split25_2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tmp/split2_0.jpg" afterPath="$PROJECT_DIR$/tmp/split2_0.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split2_1.jpg" afterPath="$PROJECT_DIR$/tmp/split2_1.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split2_10.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tmp/split2_11.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tmp/split2_12.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tmp/split2_13.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tmp/split2_14.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tmp/split2_15.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tmp/split2_2.jpg" afterPath="$PROJECT_DIR$/tmp/split2_2.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split2_3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tmp/split2_4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tmp/split2_5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tmp/split2_6.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tmp/split2_7.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tmp/split2_8.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tmp/split2_9.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tmp/split3_0.jpg" afterPath="$PROJECT_DIR$/tmp/split3_0.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split3_1.jpg" afterPath="$PROJECT_DIR$/tmp/split3_1.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split3_10.jpg" afterPath="$PROJECT_DIR$/tmp/split3_10.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split3_11.jpg" afterPath="$PROJECT_DIR$/tmp/split3_11.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split3_12.jpg" afterPath="$PROJECT_DIR$/tmp/split3_12.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split3_13.jpg" afterPath="$PROJECT_DIR$/tmp/split3_13.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split3_14.jpg" afterPath="$PROJECT_DIR$/tmp/split3_14.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split3_15.jpg" afterPath="$PROJECT_DIR$/tmp/split3_15.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split3_16.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tmp/split3_2.jpg" afterPath="$PROJECT_DIR$/tmp/split3_2.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split3_3.jpg" afterPath="$PROJECT_DIR$/tmp/split3_3.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split3_4.jpg" afterPath="$PROJECT_DIR$/tmp/split3_4.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split3_5.jpg" afterPath="$PROJECT_DIR$/tmp/split3_5.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split3_6.jpg" afterPath="$PROJECT_DIR$/tmp/split3_6.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split3_7.jpg" afterPath="$PROJECT_DIR$/tmp/split3_7.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split3_8.jpg" afterPath="$PROJECT_DIR$/tmp/split3_8.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split3_9.jpg" afterPath="$PROJECT_DIR$/tmp/split3_9.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split4_0.jpg" afterPath="$PROJECT_DIR$/tmp/split4_0.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split4_1.jpg" afterPath="$PROJECT_DIR$/tmp/split4_1.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split4_2.jpg" afterPath="$PROJECT_DIR$/tmp/split4_2.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split4_3.jpg" afterPath="$PROJECT_DIR$/tmp/split4_3.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split4_4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tmp/split5_0.jpg" afterPath="$PROJECT_DIR$/tmp/split5_0.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split5_1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tmp/split6_0.jpg" afterPath="$PROJECT_DIR$/tmp/split6_0.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split6_1.jpg" afterPath="$PROJECT_DIR$/tmp/split6_1.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split6_2.jpg" afterPath="$PROJECT_DIR$/tmp/split6_2.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split6_3.jpg" afterPath="$PROJECT_DIR$/tmp/split6_3.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split6_4.jpg" afterPath="$PROJECT_DIR$/tmp/split6_4.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split6_5.jpg" afterPath="$PROJECT_DIR$/tmp/split6_5.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split7_0.jpg" afterPath="$PROJECT_DIR$/tmp/split7_0.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split7_1.jpg" afterPath="$PROJECT_DIR$/tmp/split7_1.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split7_2.jpg" afterPath="$PROJECT_DIR$/tmp/split7_2.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split7_3.jpg" afterPath="$PROJECT_DIR$/tmp/split7_3.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split7_4.jpg" afterPath="$PROJECT_DIR$/tmp/split7_4.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split7_5.jpg" afterPath="$PROJECT_DIR$/tmp/split7_5.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split8_0.jpg" afterPath="$PROJECT_DIR$/tmp/split8_0.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split8_1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tmp/split8_2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tmp/split8_3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tmp/split8_4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tmp/split8_5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tmp/split9_0.jpg" afterPath="$PROJECT_DIR$/tmp/split9_0.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split9_1.jpg" afterPath="$PROJECT_DIR$/tmp/split9_1.jpg" />
+      <change beforePath="$PROJECT_DIR$/tmp/split9_2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tmp/split9_3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tmp/split9_4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tmp/split9_5.jpg" afterPath="" />
+    </list>
     <ignored path="untitled.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,7 +185,7 @@
     <SUITE FILE_PATH="coverage/text_detection$digits.coverage" NAME="test Coverage Results" MODIFIED="1515003489382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/digits" />
     <SUITE FILE_PATH="coverage/text_detection$predict_2.coverage" NAME="predict_2 Coverage Results" MODIFIED="1515007889232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/digits/tensorflow-mnist-predict-master" />
     <SUITE FILE_PATH="coverage/text_detection$test.coverage" NAME="test Coverage Results" MODIFIED="1515082861579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/text_detection$demo.coverage" NAME="demo Coverage Results" MODIFIED="1515457422336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/text_detection$demo.coverage" NAME="demo Coverage Results" MODIFIED="1515898399466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/text_detection$split_label.coverage" NAME="split_label Coverage Results" MODIFIED="1514484383133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prepare_training_data" />
     <SUITE FILE_PATH="coverage/text_detection$main.coverage" NAME="main Coverage Results" MODIFIED="1514992386574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/digits/cnn-mnist-master" />
     <SUITE FILE_PATH="coverage/text_detection$create_model_2.coverage" NAME="create_model_2 Coverage Results" MODIFIED="1514998079919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/digits/tensorflow-mnist-predict-master" />
@@ -32,24 +201,13 @@
       <file leaf-file-name="demo.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="154" column="10" lean-forward="true" selection-start-line="154" selection-start-column="10" selection-end-line="154" selection-end-column="10" />
+            <state relative-caret-position="90">
+              <caret line="183" column="15" lean-forward="false" selection-start-line="183" selection-start-column="15" selection-end-line="183" selection-end-column="15" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
-                <element signature="e#1133#1464#0" expanded="false" />
-                <element signature="e#1489#1503#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="digits.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/digits.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2610">
-              <caret line="147" column="0" lean-forward="false" selection-start-line="147" selection-start-column="0" selection-end-line="147" selection-end-column="0" />
-              <folding>
-                <element signature="e#993#1003#0" expanded="true" />
+                <element signature="e#711#2004#1" expanded="false" />
+                <element signature="e#2417#2748#0" expanded="false" />
+                <element signature="e#2773#2787#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -154,11 +312,11 @@
         <option value="$PROJECT_DIR$/digits/tensorflow-mnist-predict-master/create_model_2.py" />
         <option value="$PROJECT_DIR$/digits/tensorflow-mnist-cnn/cnn_model.py" />
         <option value="$PROJECT_DIR$/digits/tensorflow-mnist-cnn/mnist_cnn_test.py" />
-        <option value="$PROJECT_DIR$/digits/tensorflow-mnist-cnn/mnist_data.py" />
         <option value="$PROJECT_DIR$/digits/cnn-mnist-master/main.py" />
         <option value="$PROJECT_DIR$/digits/tensorflow-mnist-predict-master/predict_2.py" />
         <option value="$PROJECT_DIR$/digits/digits.py" />
         <option value="$PROJECT_DIR$/digits.py" />
+        <option value="$PROJECT_DIR$/digits/tensorflow-mnist-cnn/mnist_data.py" />
         <option value="$PROJECT_DIR$/demo.py" />
       </list>
     </option>
@@ -170,8 +328,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="105" />
-    <option name="y" value="125" />
+    <option name="x" value="65" />
+    <option name="y" value="32" />
     <option name="width" value="1853" />
     <option name="height" value="1048" />
   </component>
@@ -190,8 +348,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -203,10 +359,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/digits.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../VisioForge/compare_images" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
@@ -570,21 +728,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32924336" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24539877" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36605316" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3180593" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22318059" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48977506" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3312102" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -708,12 +865,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="159" />
+      <option name="time" value="162" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression="tf.global_variables()" language="Python" />
-        <watch expression="str(predint[0])" language="Python" />
       </configuration>
     </watches-manager>
   </component>
@@ -752,7 +908,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ctpn/demo_oriented.py" />
     <entry file="file://$PROJECT_DIR$/lib/text_connector/text_proposal_connector_oriented.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1403">
@@ -918,7 +1073,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1008">
           <caret line="132" column="26" lean-forward="true" selection-start-line="132" selection-start-column="26" selection-end-line="132" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1021,13 +1175,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mist_model/checkpoint" />
-    <entry file="file://$PROJECT_DIR$/digits/tensorflow-mnist-cnn/mnist_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="113" column="0" lean-forward="false" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/digits/tensorflow-mnist-predict-master/predict_2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="337">
@@ -1044,7 +1191,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="34" lean-forward="false" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1052,7 +1198,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1075,7 +1220,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
           <caret line="39" column="4" lean-forward="false" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1086,24 +1230,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/digits/tensorflow-mnist-cnn/mnist_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="36" column="27" lean-forward="true" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/digits.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2610">
-          <caret line="147" column="0" lean-forward="false" selection-start-line="147" selection-start-column="0" selection-end-line="147" selection-end-column="0" />
-          <folding>
-            <element signature="e#993#1003#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="612">
+          <caret line="36" column="7" lean-forward="false" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocr_a_reference.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="154" column="10" lean-forward="true" selection-start-line="154" selection-start-column="10" selection-end-line="154" selection-end-column="10" />
+        <state relative-caret-position="90">
+          <caret line="183" column="15" lean-forward="false" selection-start-line="183" selection-start-column="15" selection-end-line="183" selection-end-column="15" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
-            <element signature="e#1133#1464#0" expanded="false" />
-            <element signature="e#1489#1503#0" expanded="false" />
+            <element signature="e#711#2004#1" expanded="false" />
+            <element signature="e#2417#2748#0" expanded="false" />
+            <element signature="e#2773#2787#0" expanded="false" />
           </folding>
         </state>
       </provider>

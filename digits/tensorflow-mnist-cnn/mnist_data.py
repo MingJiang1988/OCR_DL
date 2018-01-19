@@ -98,7 +98,7 @@ def expend_training_data(images, labels):
 
             # shift the image with random distance
             shift = numpy.random.randint(-2, 2, 2)
-            new_img_ = ndimage.shift(new_img,shift, cval=bg_value)
+            new_img_ = ndimage.shift(new_img, shift, cval=bg_value)
 
             # register new training data
             expanded_images.append(numpy.reshape(new_img_, 784))

@@ -12,20 +12,53 @@ from lib.utils.timer import Timer
 from lib.text_connector.detectors import TextDetector
 from lib.text_connector.text_connect_cfg import Config as TextLineCfg
 from rcnn import rcnn
-from PIL import Image, ImageFilter
+
+from imutils import contours
+import imutils
 
 
 recognition = rcnn()
 
 
 def mnist_tensor(image_path):
+
     os.system("python digits.py " + image_path)
     f = open("tmp/buff.txt", "r")
     sstr = f.read()
     f.close()
-    return sstr  # first value in list
+    return sstr
+    '''
+    ref = cv2.imread("ocr_a_reference.png")
+    ref = cv2.cvtColor(ref, cv2.COLOR_BGR2GRAY)
+    ref = cv2.threshold(ref, 10, 255, cv2.THRESH_BINARY_INV)[1]
+    refCnts = cv2.findContours(ref.copy(), cv2.RETR_EXTERNAL,
+                               cv2.CHAIN_APPROX_SIMPLE)
+    refCnts = refCnts[0] if imutils.is_cv2() else refCnts[1]
+    refCnts = contours.sort_contours(refCnts, method="left-to-right")[0]
+    digits = {}
+    score = 0
+    scores = []
+    roi = cv2.imread(image_path)
+    # loop over the OCR-A reference contours
+    for (i, c) in enumerate(refCnts):
+        # compute the bounding box for the digit, extract it, and resize
+        # it to a fixed size
+        (x, y, w, h) = cv2.boundingRect(c)
+        roi = ref[y:y + h, x:x + w]
+        roi = cv2.resize(roi, (57, 88))
+        digits[i] = roi
 
-
+    # update the digits dictionary, mapping the digit name to the ROI
+    for (digit, digitROI) in digits.items():
+        # apply correlation-based template matching, take the
+        # score, and update the scores list
+        result = cv2.matchTemplate(roi, digitROI,
+                                   cv2.TM_CCOEFF)
+        (_, score, _, _) = cv2.minMaxLoc(result)
+        scores.append(score)
+    nnn = str(np.argmax(scores))
+    return nnn  # first value in list
+'''
 '''------------------------------------------------------------'''
 
 
@@ -87,10 +120,6 @@ def draw_boxes(img, image_name, boxes, scale):
         cv2.line(imline, (int(box[6]), int(box[7])), (int(box[2]), int(box[3])), color, 2)
         cv2.line(imline, (int(box[4]), int(box[5])), (int(box[6]), int(box[7])), color, 2)
 
-        #min_x = min(int(box[0]/scale),int(box[2]/scale),int(box[4]/scale),int(box[6]/scale))
-        #min_y = min(int(box[1]/scale),int(box[3]/scale),int(box[5]/scale),int(box[7]/scale))
-        #max_x = max(int(box[0]/scale),int(box[2]/scale),int(box[4]/scale),int(box[6]/scale))
-        #max_y = max(int(box[1]/scale),int(box[3]/scale),int(box[5]/scale),int(box[7]/scale))
         min_x = min(int(box[0]), int(box[2]), int(box[4]), int(box[6]))
         min_y = min(int(box[1]), int(box[3]), int(box[5]), int(box[7]))
         max_x = max(int(box[0]), int(box[2]), int(box[4]), int(box[6]))
@@ -120,7 +149,12 @@ def draw_boxes(img, image_name, boxes, scale):
 
         kernel = np.ones((kernel_size, kernel_size), np.uint8)
         edge_mask = auto_canny(blurred)
-        img_dilation = cv2.dilate(edge_mask, kernel, iterations=1)
+        kernel_n = np.ones((3, 3), np.uint8)
+
+        img_dilation = cv2.dilate(edge_mask, kernel_n, iterations=1)
+        cv2.imwrite("./tmp/Edges_o" + str(i) + ".jpg", img_dilation)
+
+        #img_dilation = cv2.dilate(edge_mask, kernel, iterations=1)
         contours_mask, _ = cv2.findContours(img_dilation.copy(), cv2.RETR_LIST, cv2.CHAIN_APPROX_SIMPLE)
         for ct in contours_mask:
             x, y, w, h = cv2.boundingRect(ct)
@@ -135,11 +169,21 @@ def draw_boxes(img, image_name, boxes, scale):
             if h > crop_img.shape[0]*0.5:
                 split_mask = gray_img[y:y+h, x:x+w]
                 file_path = "tmp/split"+str(i)+"_"+str(j)+".jpg"
-                cv2.imwrite(file_path, split_mask)
+
                 if nik_digits_scale == 0:
                     contours_list.append([x, y, w, h, file_path, "d"])
                 if nik_digits_scale > 10:
+
+                    rgb_split = cv2.cvtColor(split_mask, cv2.COLOR_GRAY2RGB)
+                    hsv = cv2.cvtColor(rgb_split, cv2.COLOR_BGR2HSV)
+                    lower_blue = np.array([0, 0, 92])
+                    upper_blue = np.array([180, 255, 255])
+                    # Threshold the HSV image to get only blue colors
+                    split_mask = cv2.inRange(hsv, lower_blue, upper_blue)
+
                     contours_list.append([x, y, w, h, file_path, "n"])
+                    #split_mask = cv2.resize(split_mask, (57, 88))
+                cv2.imwrite(file_path, split_mask)
                 j += 1
         contours_list = sort_position_line(contours_list)
         letters = ""
